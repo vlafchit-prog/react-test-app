@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@import "tailwindcss";
+
+*,body {
+    font-family: "Montserrat", sans-serif ;
+    
+}
+
+.Simple {
+    font-family: "Bodoni Moda", serif;
+}
+
+.Elegant {
+    font-family: "Ballet", cursive;
+  }
+
+@theme {
+    --color-main-purple: #4b2d44;
+    --color-main-rose: #cbb4bd;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #a66d99 !important;
+  z-index: 50;
+}
